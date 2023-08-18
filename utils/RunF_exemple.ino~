@@ -1,0 +1,32 @@
+#include <RunF.h>
+
+typedef void (*typeF)(long*, int); 
+String listFname[] = {"start", "stop", "hu"};
+typeF listF[] = {start, stopp, hu};
+RunF cmd(listF, listFname, 3); // 3 functions
+
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+  cmd.waiting();
+}
+
+void start(long *vars, int qt){
+  Serial.print("start : ");
+  Serial.println(vars[qt-1]);
+}
+
+void stopp(long *vars, int qt){
+  Serial.print("stop : ");
+  Serial.println(vars[qt-1]);
+}
+
+void hu(long *vars, int qt){
+  Serial.println("hu : ");
+  for(int i; i<qt; i++){
+    Serial.println(vars[i]);
+  }
+}
+
