@@ -1,4 +1,7 @@
-
+<!--# SimpleCDBot -->
+<!--$ Arduino-->
+<!--$ Electronique -->
+<!--% Un robot pédagoqique -->
 ### SimpleCDBot
 
 Un robot pédagogique
