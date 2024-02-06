@@ -1,10 +1,12 @@
 <!--# SimpleCDBot -->
+<!--+ 2012 -->
 <!--$ Arduino-->
 <!--$ Electronique -->
-<!--% Un robot pédagoqique -->
+<!--% Un robot pédagogique pour apprendre les bases de l'électronique. Il s'agit du premier robot réalisé au sein de l'association. -->
+
 ### SimpleCDBot
 
-Un robot pédagogique
+Un robot pédagogique pour apprendre les bases de l'électronique. Il s'agit du premier robot réalisé au sein de l'association.
 
 ![SimpleCDBot](.img/simpleCDbot.png)
 
